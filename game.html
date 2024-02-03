@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+  <title>Rock Paper Scissors</title>
+  <style>
+    .rock,
+		.paper,
+		.scissor{
+      border-color: white;
+    		background-color:transparent;
+    		width:90px;
+    		height:90px;
+				margin: 10px 8px 0px 0px;
+    		padding: 10px 10px 10px 10px;
+    		border-radius:50%;
+      }
+		img{
+				width:55px;
+    		height:55px;
+		}
+		body{
+				background-color:black;
+				color:white;
+		   }
+		h1{
+				font-family: Roboto, Arial;
+				font-width:400px;
+		}
+		.resetBtn{
+				background-color: rgb(240, 240, 240);
+				border: double;
+				border-radius: 10px;
+				border-color: blue;
+				
+		}
+  </style>
+</head>
+<body>
+  <h1>Rock Paper Scissors</h1>
+
+  <button class="rock"><img src="rock-emoji.png"> </button>
+  <button class="paper"><img src="paper-emoji.png"> </button>
+  <button class="scissor"><img src="scissors-emoji.png"> </button>
+		<p class="p"></p>
+		<br>
+		<p class="results"></p>
+		<button class="resetBtn">Reset score</button>
+  <script src="game.js"></script>
+</body>
+</html>
